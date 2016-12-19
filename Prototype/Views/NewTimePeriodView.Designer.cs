@@ -96,10 +96,10 @@
             this.Shift2,
             this.Shift3});
             this.createTimePerioddataGridView.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.createTimePerioddataGridView.Location = new System.Drawing.Point(0, 139);
+            this.createTimePerioddataGridView.Location = new System.Drawing.Point(0, 217);
             this.createTimePerioddataGridView.Name = "createTimePerioddataGridView";
             this.createTimePerioddataGridView.RowTemplate.Height = 33;
-            this.createTimePerioddataGridView.Size = new System.Drawing.Size(2048, 855);
+            this.createTimePerioddataGridView.Size = new System.Drawing.Size(2048, 777);
             this.createTimePerioddataGridView.TabIndex = 9;
             this.createTimePerioddataGridView.Visible = false;
             this.createTimePerioddataGridView.CellLeave += new System.Windows.Forms.DataGridViewCellEventHandler(this.createTimePerioddataGridView_CellLeave);
@@ -146,7 +146,7 @@
             // buttonCreateByUser
             // 
             this.buttonCreateByUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonCreateByUser.Location = new System.Drawing.Point(1743, 33);
+            this.buttonCreateByUser.Location = new System.Drawing.Point(943, 37);
             this.buttonCreateByUser.Name = "buttonCreateByUser";
             this.buttonCreateByUser.Size = new System.Drawing.Size(138, 77);
             this.buttonCreateByUser.TabIndex = 11;

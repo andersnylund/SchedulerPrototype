@@ -21,3 +21,16 @@ C:\Users\Anders\Desktop\Program\Prototype\Prototype\obj\Debug\Prototype.Views.Ne
 C:\Users\Anders\Desktop\Program\Prototype\Prototype\obj\Debug\Prototype.Views.TimePeriodView.resources
 C:\Users\Anders\Desktop\Program\Prototype\Prototype\obj\Debug\Prototype.Views.FittestChromosomeView.resources
 C:\Users\Anders\Desktop\Program\Prototype\Prototype\obj\Debug\Prototype.Optimization.OptimizingView.resources
+C:\Users\Anders\Desktop\SchedulerPrototype\Prototype\bin\Debug\Prototype.exe.config
+C:\Users\Anders\Desktop\SchedulerPrototype\Prototype\obj\Debug\Prototype.exe
+C:\Users\Anders\Desktop\SchedulerPrototype\Prototype\obj\Debug\Prototype.pdb
+C:\Users\Anders\Desktop\SchedulerPrototype\Prototype\bin\Debug\Prototype.exe
+C:\Users\Anders\Desktop\SchedulerPrototype\Prototype\bin\Debug\Prototype.pdb
+C:\Users\Anders\Desktop\SchedulerPrototype\Prototype\obj\Debug\Prototype.csprojResolveAssemblyReference.cache
+C:\Users\Anders\Desktop\SchedulerPrototype\Prototype\obj\Debug\Prototype.StartView.resources
+C:\Users\Anders\Desktop\SchedulerPrototype\Prototype\obj\Debug\Prototype.Properties.Resources.resources
+C:\Users\Anders\Desktop\SchedulerPrototype\Prototype\obj\Debug\Prototype.Views.FittestChromosomeView.resources
+C:\Users\Anders\Desktop\SchedulerPrototype\Prototype\obj\Debug\Prototype.Views.NewTimePeriodView.resources
+C:\Users\Anders\Desktop\SchedulerPrototype\Prototype\obj\Debug\Prototype.Optimization.OptimizingView.resources
+C:\Users\Anders\Desktop\SchedulerPrototype\Prototype\obj\Debug\Prototype.Views.TimePeriodView.resources
+C:\Users\Anders\Desktop\SchedulerPrototype\Prototype\obj\Debug\Prototype.csproj.GenerateResource.Cache
