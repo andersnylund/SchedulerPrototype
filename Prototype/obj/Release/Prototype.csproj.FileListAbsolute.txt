@@ -1,0 +1,13 @@
+C:\Users\Anders\Desktop\Program\Prototype\Prototype\bin\Release\Prototype.exe.config
+C:\Users\Anders\Desktop\Program\Prototype\Prototype\bin\Release\Prototype.exe
+C:\Users\Anders\Desktop\Program\Prototype\Prototype\bin\Release\Prototype.pdb
+C:\Users\Anders\Desktop\Program\Prototype\Prototype\obj\Release\Prototype.StartView.resources
+C:\Users\Anders\Desktop\Program\Prototype\Prototype\obj\Release\Prototype.Properties.Resources.resources
+C:\Users\Anders\Desktop\Program\Prototype\Prototype\obj\Release\Prototype.Views.FittestChromosomeView.resources
+C:\Users\Anders\Desktop\Program\Prototype\Prototype\obj\Release\Prototype.Views.NewTimePeriodView.resources
+C:\Users\Anders\Desktop\Program\Prototype\Prototype\obj\Release\Prototype.Views.TimePeriodView.resources
+C:\Users\Anders\Desktop\Program\Prototype\Prototype\obj\Release\Prototype.csproj.GenerateResource.Cache
+C:\Users\Anders\Desktop\Program\Prototype\Prototype\obj\Release\Prototype.exe
+C:\Users\Anders\Desktop\Program\Prototype\Prototype\obj\Release\Prototype.pdb
+C:\Users\Anders\Desktop\Program\Prototype\Prototype\obj\Release\Prototype.csprojResolveAssemblyReference.cache
+C:\Users\Anders\Desktop\Program\Prototype\Prototype\obj\Release\Prototype.Optimization.OptimizingView.resources

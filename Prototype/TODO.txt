@@ -1,0 +1,60 @@
+﻿-DONE!	The cost-function (rajoitefunktio) is implemented and can find optimal solutions in a reasonable time.
+		However the objective-function is not yet implemented
+
+-DONE!	Consistent timetables are prefered so the objective-function will prefer that a persons shifts are all in row (ei hyppytunteja)
+		and that the persons different shifts are consistently on the same shift (eg. Day 1 Shift 3, Day 2, Shift 3 etc.)
+
+-DONE!	In real life the objective function would be optimal if the length of the workperiods (sequence of assigned shifts) would be 5, followed by 2 days off (unassigment)
+		Just checking the sequency of all assigned shifts can be problematic in long timeperiods
+		This is however tricky to implement
+
+-DONE!	A new view (better chromosome view for the user) that represents the best found solution and its information (generation of solution,
+		time used).
+-DONE! This view could show persons in red if the objective function is not satisfied
+
+-DONE!	The new resultview requires a new class eg. "BestChromosome" that has fields "generation", "time" etc.
+		This requires a timer in the optimization loop
+
+-	The mutation of the chromosomes is still in early stages and any variants of it has not been tested yet
+
+-DONE!	The possibility of parallel computation (usage of multiple threads) should be investigated
+
+-DONE! Add exception when creating a timeperiod with length 0 and maxpersons 0
+
+-DONE!	Calculating cost of a chromosome is done 2 times, first time in the constructor and second time in the cost-properties
+		Should be calculated only when the cost-property of a chromosome is used
+
+-DONE!	Add a generations per second value to FittestChromosomeView
+
+-DONE!	Create a new thread for the optimization object to allow the user to stop the optimization whenever he wants
+
+-	The optimization problem should work as follows: 
+	1. Optimize until the constraint-cost is 0, use the 3-type mutation and don't calculate the objective-cost at all
+	2. When constraint-cost is 0, begin optimization of objective function by only using switching of 2 shifts. No increase in constraint-cost is allowed
+	The 2 different types of mutation requires a flag (true or false) if constraint-cost is 0 or not
+	"True if constraint cost is 0, else false"
+
+-DONE!	When finding a chromosome with a total constraint cost of 0, this chromosome should be copied 10 times for beginning the search for a minimum objective cost
+		Alternatively, the other chromosomes could continue to try to find their own solution to the constraint-cost problem
+
+-DONE!	Allow user to create his own timeperiod
+
+-DONE!	When replacing the chromosome in oldGeneration with a new chromosome the rigth chromosome is removed, but the new chromosome is added to the end of the list
+		which is incorrect. The new chromosome should get the same index as the old chromosome!
+
+-FIXED!	IMPORTANT! When generating a random timeperiod everything works fine (i think). But when trying to solve a user-made everything fails
+		The backgroundworker is not even doing anything and it can't be stopped
+		I don't know what is causing the problem
+		
+		Problem was when only 1 person was created the swapping shifts method was caught in a infinite while loop
+		This was fixed by adding a rule that no swaps are made if AvailablePerson.Count <= 1, because there is no point to swap shifts between the same person
+
+-	Calculating the objective cost from the property "ObjectiveCost" has randomness in it. This causes that if the cost is read from the property, it varies
+	each time it's used.
+	All costs should be calculated in the constructor of the chromosome after the mutation, and that way the properties could used without worries 
+	of unnecessary calculation.
+	The randomness however requires that the objective-cost is calculated many times which is not either convenient...
+
+-PROBABLY FIXED! Bug in calculating objective cost
+
+-FIXED!	Is there a need to show both shiftAssignmentConstraintCost and personAssigmentConstraintCost. Could they just both be added to totalConstraintCost and use that all the time?
